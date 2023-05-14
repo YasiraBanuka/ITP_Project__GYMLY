@@ -23,7 +23,7 @@ const StandardDetails_user = ({ standard, highlightedPackage }) => {
             <h2 class="std-name">{standard.stPackageName}</h2>
             <h4 class="std-id">Package ID : {standard.stPackageId}</h4>
             <p class="std-price">LKR {standard.stPackagePrice}</p>
-            <p class="std-description">{standard.stPackageDescription}</p><br />
+            <p class="std-description">{standard.stPackageDescription}</p>
             <p><button class="std-edit-btn">Select</button></p>
         </div>
     )

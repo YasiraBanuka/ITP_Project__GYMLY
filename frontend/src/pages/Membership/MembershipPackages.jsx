@@ -93,7 +93,6 @@ const MembershipPackages = () => {
     }
       
     return (
-        // <section className="form-section">
         <section>
             <Container>
                 <div className="search-download">

@@ -9,6 +9,9 @@ const PromoDetails = ({ promo }) => {
         })
         const json = await response.json()
 
+        console.log('new promo added', json)
+        alert('Promo package deleted successfully!')
+
         // Refresh the page
         window.location.reload();
     }

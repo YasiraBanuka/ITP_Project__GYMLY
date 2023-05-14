@@ -31,4 +31,3 @@ mongoose.connect(process.env.MONGO_URI)
 // routes
 app.use('/api/stPackages', stPackageRoutes)
 app.use('/api/prPackages', prPackageRoutes)
-

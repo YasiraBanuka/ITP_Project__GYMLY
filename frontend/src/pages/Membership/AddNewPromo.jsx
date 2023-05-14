@@ -46,6 +46,10 @@ const AddNewPromo = () => {
         }
     }
 
+    const handleNavigate = () => {
+        navigate('/promopackages')
+    }
+
     return (
         <body>
             <section>
@@ -116,9 +120,19 @@ const AddNewPromo = () => {
                                 <div class="add-promo-row">
                                     <div className="add-promo-btns">
                                         <div>
-                                            <button type='reset' className='secondary__btn' style={{marginRight: '10px'}}>Cancel</button>
+                                            <button 
+                                                type='reset' 
+                                                className='secondary__btn' 
+                                                style={{marginRight: '10px'}} 
+                                                onClick={handleNavigate}>
+                                                    Cancel
+                                            </button>
                                             {/* <button type='submit' className='primary__btn submit create-btn'>Create</button> */}
-                                            <button type='submit' className='primary__btn'>Create</button>
+                                            <button 
+                                                type='submit' 
+                                                className='primary__btn'>
+                                                    Create
+                                            </button>
                                         </div>
                                     </div>
                                     {error && <div className="error">{error}</div>}
