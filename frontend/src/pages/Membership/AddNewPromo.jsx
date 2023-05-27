@@ -127,7 +127,6 @@ const AddNewPromo = () => {
                                                 onClick={handleNavigate}>
                                                     Cancel
                                             </button>
-                                            {/* <button type='submit' className='primary__btn submit create-btn'>Create</button> */}
                                             <button 
                                                 type='submit' 
                                                 className='primary__btn'>
